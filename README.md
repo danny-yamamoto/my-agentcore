@@ -181,6 +181,10 @@ agentcore configure --entrypoint my_strands_agents.py -er arn:aws:iam::XXXXXXXXX
 agentcore launch
 ```
 
+<details>
+
+<summary>Logs</summary>
+
 ```bash
 (my-agentcore) vscode ➜ /workspaces/my-agentcore (main) $ agentcore launch
 Launching Bedrock AgentCore (cloud mode)...
@@ -330,7 +334,11 @@ Response:
 (my-agentcore) vscode ➜ /workspaces/my-agentcore (main) $
 ```
 
+</details>
+
 ## 参考リンク
 
+- [uv](https://speakerdeck.com/mickey_kubo/pythonpatukeziguan-li-uv-wan-quan-ru-men)
 - [Qiita記事](https://qiita.com/har1101/items/73fa749e05c4cb38bb6e)
 - [AWS Blog: Introducing Amazon Bedrock AgentCore](https://aws.amazon.com/jp/blogs/aws/introducing-amazon-bedrock-agentcore-securely-deploy-and-operate-ai-agents-at-any-scale/)
+- [Configuring Ruff](https://docs.astral.sh/ruff/configuration/#full-command-line-interface)
