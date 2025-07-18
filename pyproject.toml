@@ -5,3 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[tool.ruff]
+select = ["E", "F", "I"]
+ignore = ["E501"]  # 例: 行の長さ制限を無視したい場合
+line-length=100

@@ -1,5 +1,5 @@
-from strands import Agent
 from bedrock_agentcore.runtime import BedrockAgentCoreApp
+from strands import Agent
 
 app = BedrockAgentCoreApp()
 
