@@ -1,6 +1,6 @@
 # my-agentcore
 
-AWS Bedrock AgentCore と Strands Agents を使用した AI エージェントのサンプルです
+Amazon Bedrock AgentCore と Strands Agents を使用した AI エージェントのサンプルです
 
 ## セットアップ
 
